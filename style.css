@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background: #b675ff;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 13px;
+  color: #000;
+}
+
+#container {
+  width: 900px;
+  margin: 20px auto;
+  background: #ffffff;
+  border: 1px solid #7a7a7a;
+}
+
+/* HEADER */
+#header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#7700ff, #a600ff);
+  padding: 8px;
+  color: #fff;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  image-rendering: pixelated;
+}
+
+.headtext {
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav {
+  font-size: 12px;
+}
+
+/* MAIN */
+#main {
+  display: flex;
+  padding: 10px;
+}
+
+#content {
+  width: 70%;
+  padding: 10px;
+}
+
+#content h2 {
+  margin-top: 0;
+}
+
+#sidebar {
+  width: 30%;
+  padding: 10px;
+}
+
+/* BOXES */
+.box {
+  border: 1px solid #9a9a9a;
+  background: #f2f2f2;
+  padding: 6px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.counter {
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+}
+
+/* STATUS */
+#status {
+  border-top: 1px solid #9a9a67;
+  padding: 10px;
+  background: #eeeeee;
+}
+
+/* FOOTER */
+#footer {
+  text-align: center;
+  font-size: 11px;
+  color: #467;
+  padding: 6px;
+}
+
+/* PIXEL IMG */
+.pixel {
+  image-rendering: pixelated;
+}
+
